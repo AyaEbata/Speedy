@@ -53,6 +53,7 @@ button {
 	line-height:40px;
 	text-align:center;
 	border: none;
+	padding: 2px 20px;
      background: rgba(214,29,81,0.5);
 	width: 100%;
 }
