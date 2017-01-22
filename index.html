@@ -6,12 +6,19 @@
     <link rel="stylesheet" href="css/style.css" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.min.css">
+    <script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+
+</script>
   </head>
   <body>
     <div id="image"></div>
     <div id="container">
       <div id="title"></div>
       <form name="search" action="movie.html">
+      <div id="title" class="wow fadeIn"></div>
+      <form name="search" action="movie.html" class="wow zoomIn" data-wow-delay="1s">
         <dl class="search">
           <dd><input type="text" id="url" placeholder="https://www.youtube.com/" /></dd>
           <dd><button onclick="form.submit()"><i class="fa fa-search"></i></button></dd>
