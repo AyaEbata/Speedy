@@ -4,7 +4,9 @@ body {
     text-align: center;
     color: white;
 }
-
+button {
+    outline:none;
+}
 #image {
     content: url("../img/bg-img.png");
     position: fixed;
@@ -38,4 +40,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.search dd {
+    margin: 0;
+}
+.search dd button{
+	display:block;
+	color:#fff;
+	line-height:40px;
+	text-align:center;
+	border: 1px solid #da3c69;
+    background: #da3c69;
+	width: 100%;
+}
+.search dd button:hover {
+	background: #d61d51;
 }
