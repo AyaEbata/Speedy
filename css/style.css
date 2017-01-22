@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#image {
+    content: url("../img/bg-img.png");
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#container {
+    position: relative;
+}
+
+#title {
+    content: url("../img/title-info.png");
+}
+
+#url {
+    width: 400px;
+    height: 40px;
+}
