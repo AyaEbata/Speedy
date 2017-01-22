@@ -21,13 +21,21 @@ body {
 
 #title {
     content: url("../img/title-info.png");
+    margin: 0 auto;
+    width: 80%;
 }
 
 #url {
     width: 400px;
     height: 40px;
+     font-size: 18px;
 }
 
 #movie {
     width: 100%;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
