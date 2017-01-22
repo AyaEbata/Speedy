@@ -27,3 +27,7 @@ body {
     width: 400px;
     height: 40px;
 }
+
+#movie {
+    width: 100%;
+}
